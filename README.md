@@ -1,0 +1,8 @@
+# Data-science-works
+
+GROUPE 4
+Membres du groupe:
+  * DJONRE NDOSSUE CHRISTIAN
+  * EKHALBO PATCHAN BOPAHBE JAIRUS
+  * KHADIDJA HINDOU
+  * SOUAPIEBE Edmond-Prosper
