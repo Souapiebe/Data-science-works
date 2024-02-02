@@ -1,0 +1,20 @@
+import math
+
+def euclidean_distance(instance1, instance2):
+    sum_squared_distance = 0
+    for i in range(len(instance1)):
+        sum_squared_distance += math.pow(instance1[i] - instance2[i], 2)
+    return math.sqrt(sum_squared_distance)
+
+## distance manhanttan
+
+def manhattan_distance(instance1, instance2):
+    # Assurez-vous que les deux instances ont la même longueur
+    if len(instance1) != len(instance2):
+        raise ValueError("Les instances doivent avoir la même longueur")
+
+    distance = 0
+    for i in range(len(instance1)):
+        distance += abs(instance1[i] - instance2[i])
+
+    return distance
